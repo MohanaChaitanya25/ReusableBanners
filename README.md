@@ -1,6 +1,5 @@
 # Reusable Banners 
 
-### Refer to the image below:
 
 <br/>
 <div style="text-align: center;">
