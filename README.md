@@ -1,4 +1,4 @@
-In this project, let's build **Reusable Banners** by applying the concepts we have learned till now.
+# Reusable Banners 
 
 ### Refer to the image below:
 
@@ -18,48 +18,7 @@ In this project, let's build **Reusable Banners** by applying the concepts we ha
 
 </details>
 
-### Set Up Instructions
 
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- The App is provided with `bannerCardsList`. It consists of a list of bannerCardItem objects with the following properties in each bannerCardItem object
-
-  |     Key     | Data Type |
-  | :---------: | :-------: |
-  |     id      |  Number   |
-  | headerText  |  String   |
-  | description |  String   |
-  |  className  |  String   |
-
-- The value of the key `id` should be used as a key to the `BannerCardItem` component.
-- The value of the key `className` should be used as a className for the HTML list item in the `BannerCardItem` component.
-
-</details>
-
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/App.js`
-- `src/App.css`
-- `src/components/BannerCardItem/index.js`
-- `src/components/BannerCardItem/index.css`
-</details>
 
 ### Resources
 
@@ -82,9 +41,4 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
