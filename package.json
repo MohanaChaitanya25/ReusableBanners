@@ -1,4 +1,5 @@
 {
+  "homepage": "https://MohanaChaitanya25.github.io/ReusableBanners",
   "name": "reusable-banners",
   "private": true,
   "version": "1.0.0",
@@ -27,6 +28,8 @@
     "terser-brunch": "4.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
