@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ReusableBanners/static/css/main.63ba5a88.chunk.css",
+    "main.js": "/ReusableBanners/static/js/main.65d4381b.chunk.js",
+    "main.js.map": "/ReusableBanners/static/js/main.65d4381b.chunk.js.map",
+    "runtime-main.js": "/ReusableBanners/static/js/runtime-main.dcdfc0a8.js",
+    "runtime-main.js.map": "/ReusableBanners/static/js/runtime-main.dcdfc0a8.js.map",
+    "static/js/2.c233b869.chunk.js": "/ReusableBanners/static/js/2.c233b869.chunk.js",
+    "static/js/2.c233b869.chunk.js.map": "/ReusableBanners/static/js/2.c233b869.chunk.js.map",
+    "index.html": "/ReusableBanners/index.html",
+    "static/css/main.63ba5a88.chunk.css.map": "/ReusableBanners/static/css/main.63ba5a88.chunk.css.map",
+    "static/js/2.c233b869.chunk.js.LICENSE.txt": "/ReusableBanners/static/js/2.c233b869.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcdfc0a8.js",
+    "static/js/2.c233b869.chunk.js",
+    "static/css/main.63ba5a88.chunk.css",
+    "static/js/main.65d4381b.chunk.js"
+  ]
+}
