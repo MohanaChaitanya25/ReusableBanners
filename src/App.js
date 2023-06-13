@@ -1,6 +1,5 @@
 import './App.css'
-
-import BannerCardItem from './components/BannerCardItem/index'
+import BannerCardItem from './components/BannerCardItem'
 
 const bannerCardsList = [
   {
@@ -25,13 +24,13 @@ const bannerCardsList = [
 ]
 
 const App = () => (
-  <ul className="flexBox">
-    {bannerCardsList.map(eachItem => (
-      <BannerCardItem bannerCard={eachItem} key={eachItem.id} />
-    ))}
-  </ul>
+  <div className="reusableBannersApp-bg-container">
+    <ul className="reusableBannersApp-ul-list">
+      {bannerCardsList.map(eachItem => (
+        <BannerCardItem key={eachItem.id} bannerCard={eachItem} />
+      ))}
+    </ul>
+  </div>
 )
-
-//   bannerCardsList.map(eachItem => <BannerCardItem bannerCard={eachItem} />)
 
 export default App
